@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/IdeaProjects/CASEFEATURES">
+        <classes>
+            <class name="test.CaseFeatureTest">
+                <methods>
+                    <include name="caseCreationTest"/>
+                    <exclude name="caseCreationEditTest"/>
+                    <exclude name="defaultSubjectAssignmentToCaseTest"/>
+                    <exclude name="defaultSubjectAssignmentToCaseEditTest"/>
+                    <exclude name="caseNonDeletionTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
